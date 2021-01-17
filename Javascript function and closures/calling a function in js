@@ -1,0 +1,19 @@
+function increaseHighScore( currentScore){
+    var newHighScore = 2 * currentScore;
+    return newHighScore;
+    
+}
+console.log(increasehighscore(4));
+var newHighScore = function  ( currentscore){
+    return(
+    console.log(this),
+       console.log(arguments)
+    )
+    
+}(2);
+
+
+
+
+
+//document.getElementById("test").innerHTML= newHighScore(10);
