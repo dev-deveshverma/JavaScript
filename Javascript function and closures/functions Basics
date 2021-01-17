@@ -1,1 +1,7 @@
- d
+function increaseHighScore( currentScore){
+    var newHighScore = 2 * currentscore;
+    return newHighScore;
+}
+    console.log(increaseHighScore(4) );
+
+//document.getElementById("test").innerHtml = txt;
