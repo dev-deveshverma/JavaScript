@@ -1,0 +1,19 @@
+var harley = {
+    
+    name : "Street750",
+    color : "Black",
+        
+   getBudgetForCustomerStuff : function (a){
+            return("you need to lower budget",
+                console.log(this.name)
+                   )
+        },
+            
+    shoutOuts :   [
+        { keven: "A cool Balck monster with 750cc "},
+        { sam : "Heavy bike with full power"}
+    ]        
+};
+harley.getBudgetForCustomStuff(8000);
+
+document.getElementById("test").innerHTML = harley.shoutOuts;
