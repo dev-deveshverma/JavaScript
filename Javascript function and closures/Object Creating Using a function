@@ -1,0 +1,23 @@
+var SuperHero = function(){
+    
+    var power,villian;
+    
+}
+
+Peterparker = newSuperHero;
+
+Peterparker.power = "AirSwing";
+
+peterparker.villion = "Green Goblin";
+
+console.log(Peterparker.villian)
+
+clark = new SuperHero;
+
+clark.power = "fly";
+
+clark.villian = "lex lithor";
+
+console.log(clark.villian)
+
+//document.getElementById("test").innerHTML=harley.shoutOuts;
