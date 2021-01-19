@@ -1,0 +1,39 @@
+<!--Java Script Dom And nodes Concept-!-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> javascript</title>
+</head>
+<body>
+   <h1>Defination and Use of DOM MODEL</h1>
+   <p>When a web page is loaded, the browser creates a Document Object Model of the page.
+
+The HTML DOM model is constructed as a tree of Objects:</p>
+   <p>With the object model, JavaScript gets all the power it needs to create dynamic HTML:
+
+    JavaScript can change all the HTML elements in the page
+    JavaScript can change all the HTML attributes in the page
+    JavaScript can change all the CSS styles in the page
+    JavaScript can remove existing HTML elements and attributes
+    JavaScript can add new HTML elements and attributes
+    JavaScript can react to all existing HTML events in the page
+    JavaScript can create new HTML events in the page
+</p>
+   <h1>Creating New HTML Elements (Nodes)</h1>
+   <p>To add a new element to the HTML DOM, you must create the element (element node) first, and then append it to an existing element. </p>
+   <div id="div1">
+<p id="p1">This is a paragraph.</p>
+<p id="p2">This is another paragraph.</p>
+</div>
+
+<script>
+var para = document.createElement("p");
+var node = document.createTextNode("This is new.");
+para.appendChild(node);
+var element = document.getElementById("div1");
+element.appendChild(para);
+</script>
+    
+</body>
+</html>
