@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Java Script Run Enviroment</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+        <h1 id = "test1"></h1>
+        <h1 id = "changeColor"> Everyone can create  this kind  of page</h1>
+         <h2> If this is too tough for you, then take a look at home course </h2> 
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ipsum repellat delectus voluptas, sapiente vel corporis. Eveniet suscipit pariatur beatae id minus quos sapiente quasi!</p>
+         <button type="button"
+             onMouseOver = "document.getElementById('changeColor').style.color = 'red'" > 
+             OnMouseOver Button</button>
+  
+  <ul id="change">
+      <li>Quality courses</li>
+      <li> Watch, repeat and learn.</li>
+      <li> Learn new skills, everyday.</li>
+  </ul>
+    <div id ="test">
+    <form id="myForm" action="#">
+        First name: <input type="text" name="fname" value="test"><br>
+        Last name: <input type="text" name="lname" value="test"><br><br>
+        <button onclick="myFunction()">getValue</button>
+    </form>
+    
+    </div>
+    <div>
+        <h3 id="getValue"></h3>
+        
+    </div>
+     
+
+       
+        <script src="grabbing.js"></script>
+
+ </body>
+</html>
