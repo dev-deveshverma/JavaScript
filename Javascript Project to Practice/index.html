@@ -1,37 +1,29 @@
- <!DOCTYPE html>
+ var d, h, m, s, clock, color;
 
-<html lang="en">
+function clock (){
 
-<head>
+d = new Date();
 
-<meta charset="utf-8">
+h = d.getHours();
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+m = d.getMinutes (); s = d.getSeconds();
 
-<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter
+if (h <= 9){ h = 'O' + h;
 
-bootstrap/3.3.5/css/bootstrap.min.css">
+} if ( m <= 9){
 
-<title>Minimum Bootstrap HTML Skeleton</title>
+m = 'O' + m;
 
-<link rel="stylesheet" href="css/clockStyle.css">
+} if ( s <= 9){
 
-</head>
+S 'O' + S;
 
-<body>
+}
 
-<div id="clock" >
+clock h + ":" + m
 
-</div>
+11:" + S;
 
-<script src="js/clock.js" ></script>
+color = "#" + h + m + s;
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-<script>
-
-</script>
-
-</body>
-
-</html>
+document.getElementById ("clock").innerHTML document.body.style.background = color;
