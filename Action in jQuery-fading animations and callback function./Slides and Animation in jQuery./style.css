@@ -1,0 +1,18 @@
+body{
+    background-color: green;
+    color: #fff;
+}
+.center{
+    text-align: center;
+    font-size: 2em;
+}
+.center{
+    background-color: rgba(50, 50, 50, 0.5);
+}
+.sample{
+    margin: 0 oute;
+    margin-top: -43px;
+    height: 100px;
+    width: 800px;
+    background-color: #fff;
+}
