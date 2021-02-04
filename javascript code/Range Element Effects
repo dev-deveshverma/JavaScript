@@ -1,1 +1,103 @@
+<!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
+<style>
+.range-wrap {
+  position: relative;
+  width: 100%;
+  padding: 1.5em 0; /*  Giving more room for hover  */
+  max-width: 400px;
+}
 
+/* Custom Bar */
+.range-wrap::before {
+  content: "";
+  background: linear-gradient(to right, #0145b8, #00e5e0, #00f25e);
+  width: 100%;
+  height: 8px;
+  display: block;
+  position: absolute;
+  border-radius: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: height 100ms ease;
+}
+
+.range-wrap:hover::before {
+  height: 10px;
+}
+
+/*  Hide Original */
+.range {
+  width: 100%;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.bubble {
+  background: white;
+  border: 3px solid #cbd2da;
+  position: absolute;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; /* Remove pointer events on Bubble so user can click on the actual thumb beaneath it!  */
+  color: transparent;
+  display: grid;
+  place-items: center; /*  Place the number on the center  */
+  font-weight: bold;
+  transition: color 100ms ease, transform 100ms ease;
+  user-select: none; /*  Prevent Accidentally highlighting the number while sliding the cursor  */
+}
+
+.range-wrap:hover .bubble,
+.range-wrap:focus .bubble {
+  color: black;
+  transform: translateY(-50%) scale(1.5);
+  padding: 0.1em;
+}
+
+body {
+  font-family: monospace;
+  height: 100%;
+  display: grid;
+  grid-gap: 5rem;
+  place-items: center;
+  padding: 10%;
+}
+</style>
+
+<div class="range-wrap">
+<input type="range" class="range" min="20" max="940">
+<output class="bubble"></output>
+</div>
+
+<script>
+// Forked from Chris Coyier's pen : https://codepen.io/chriscoyier/pen/eYNQyPe -->
+const allRanges = document.querySelectorAll(".range-wrap");
+allRanges.forEach(wrap => {
+  const range = wrap.querySelector(".range");
+  const bubble = wrap.querySelector(".bubble");
+
+  range.addEventListener("input", () => {
+    setBubble(range, bubble);
+  });
+
+  // setting bubble on DOM load
+  setBubble(range, bubble);
+});
+
+function setBubble(range, bubble) {
+  const val = range.value;
+
+  const min = range.min || 0;
+  const max = range.max || 100;
+
+  const offset = Number((val - min) * 100 / (max - min));
+
+  bubble.textContent = val;
+
+  // yes, 14px is a magic number
+  bubble.style.left = `calc(${offset}% - 14px)`;
+}
+</script><a target='_blank' href='http://www.javascriptfreecode.com/' style='font-size: 8pt; text-decoration: none'>JavaScript Codes</a>
