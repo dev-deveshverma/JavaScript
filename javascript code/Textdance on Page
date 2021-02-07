@@ -33,6 +33,7 @@ alert("Your message is to short")
 }
 }
 
+
 function jump1a(){
 nfinal=(document.getElementById)? document.getElementById("n0") : document.all.n0
 nfinal.style.left=-num2;
