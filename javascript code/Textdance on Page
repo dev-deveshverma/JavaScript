@@ -30,6 +30,8 @@ jump1a()
 }
 else{
 alert("Your message is to short")
+
+
 }
 }
 
