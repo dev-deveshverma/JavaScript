@@ -1,1 +1,7 @@
-
+<!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
+<!-- Start of Message Alert -->
+<!-- Use this button in a form to pop-up a message when the user clicks it -->
+<form>
+<input type="button" value="message" onClick="alert('YOUR MESSAGE GOES HERE'); return true">
+</form>
+<!-- End of Message Alert --><a target='_blank' href='http://www.javascriptfreecode.com/' style='font-size: 8pt; text-decoration: none'>JavaScript Codes</a>
