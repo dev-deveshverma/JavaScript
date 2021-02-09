@@ -1,1 +1,50 @@
+ww.javascriptfreecode.com coded by: Kerixa Inc. -->
+<!-- A Script that types in a box that looks like notepad very cool
 
+       The speed of the typing can be adjusted by raising 
+       or lowering the number in the setTimeout function. 
+-->
+
+<script language="JavaScript">
+
+function makeArray() 
+{
+  this.length = makeArray.arguments.length
+  for (var i = 0; i < this.length; i++)
+  this[i+1] = makeArray.arguments[i]
+}
+
+var fArray = new makeArray;
+fArray[0]="Message 1 goes here. "
+fArray[1]="Message 2 goes here. "
+fArray[2]="Message 3 goes here. "
+fArray[3]="Message 4 goes here. "
+
+var x = 1;
+var y = 0;
+var msg1 = fArray[y];
+
+function newsFeed() 
+{
+  if (x==msg1.length+1) 
+  {
+    for (var z=0; z < 7000; z++);
+    y+=1;
+    if (y > 3) y=0;
+    document.form1.news2.value=' ';
+    msg1 = fArray[y];
+    x=0;
+  }
+  document.form1.news2.value=msg1.substring(0,x);  
+  x+=1;
+  setTimeout("newsFeed() ",1);
+}
+</script>
+
+<body bgcolor=teal link=goldenrod onLoad="newsFeed()">
+
+<form name="form1">
+<textarea wrap=physical rows=10 cols=25 name="news2">
+</form>
+</body>
+<a target='_blank' href='http://www.javascriptfreecode.com/' style='font-size: 8pt; text-decoration: none'>JavaScript Codes</a>
