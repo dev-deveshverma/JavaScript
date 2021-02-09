@@ -1,1 +1,62 @@
- 
+<!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1256">
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title></title>
+</head>
+
+<body>
+
+<!-- START OF Add Bookmark in IE DHTML -->
+
+<!-- SUMMARY BRIEF
+
+	This code will allow you to put a link on your
+	page that, when clicked, will add a URL to the
+	user's Favorites.
+
+	NOTE: This will only work for IE users. It will
+	NOT work for users using Netscape.
+
+	You can change the bookmark link and text in the
+	var bookmarkurl and var bookmarktitle attributes
+	below.
+
+	You can change the text of the actual link in the
+	<A HREF> code that you will place for your link
+	to appear in your page. It is located at the
+	bottom of this page.
+
+-->
+
+<!-- Put this code inside of your <HEAD> tag. -->
+
+
+<script language="JavaScript1.2">
+<!--
+
+var bookmarkurl="http://www.javaScriptfreecode.com/"
+var bookmarktitle="-=[ Java Web Site ]=-"
+
+function ccaddbookmark() {
+	if (document.all)
+	window.external.AddFavorite(bookmarkurl,bookmarktitle)
+}
+
+//-->
+</script>
+
+
+<!-- Put this code into your page wherever you want the link to be. -->
+
+
+<a href="javascript:ccaddbookmark()" target="_self">
+<font size="1" face="Arial">[ Add Webloger to your Favorites ]</font>
+</a>
+<!-- END OF Add Bookmark in IE DHTML -->
+
+<a target='_blank' href='http://www.javascriptfreecode.com/' style='font-size: 8pt; text-decoration: none'>JavaScript Codes</a>
