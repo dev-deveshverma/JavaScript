@@ -1,1 +1,22 @@
-
+<!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
+<script type="text/javascript" language="JavaScript"><!--
+function HideContent(d) {
+document.getElementById(d).style.display = "none";
+}
+function ShowContent(d) {
+document.getElementById(d).style.display = "block";
+}
+function ReverseDisplay(d) {
+if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; }
+else { document.getElementById(d).style.display = "none"; }
+}
+  //--></script>Content Info:<br/>
+<a href="javascript:ShowContent('uniquename')">
+Show Content
+</a>
+<div id="uniquename" style="display:none;">
+<p>Visit us again!</p>
+<a href="javascript:HideContent('uniquename')">
+Hide Content
+</a>
+</div><a target='_blank' href='http://www.javascriptfreecode.com/' style='font-size: 8pt; text-decoration: none'>JavaScript Codes</a>
