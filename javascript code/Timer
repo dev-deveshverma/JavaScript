@@ -29,6 +29,7 @@ function Decrement() {
                         seconds.style.color="red";
                     }
                  if(mins<0)
+		 
                  {
 alert('time up');
 document.forms["s"].submit();
