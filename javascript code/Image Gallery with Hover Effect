@@ -10,6 +10,7 @@
   height: 100vh;
 }
 
+
 .box {
   -webkit-box-flex: 1;
           flex: 1;
