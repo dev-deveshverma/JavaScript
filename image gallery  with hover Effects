@@ -21,6 +21,7 @@
   line-height: 0;
 }
 
+
 .box > img {
   width: 200%;
   height: calc(100% - 10vh);
