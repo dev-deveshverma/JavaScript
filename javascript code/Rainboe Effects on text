@@ -14,6 +14,9 @@ function MakeArray(n)
   return this
 }
 
+
+
+
 hex=new MakeArray(16);
 hex[11]="A"; 
 hex[12]="B"; 
