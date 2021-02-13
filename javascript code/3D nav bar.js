@@ -22,6 +22,8 @@
   font-family: Century Gothic;
   letter-spacing: 5px;
 }
+
+
 .div{
   margin-left: auto;
   margin-right: auto;
