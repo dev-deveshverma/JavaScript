@@ -1,1 +1,130 @@
+<!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
+<!-- START OF Drop Down DHTML -->
 
+<!-- SUMMARY BRIEFS
+	This DHTML script will create a drop down link box out of
+	an ordinary link.  VERY COOL!!!!
+
+	The top portion of this script goes above the <BODY> tag.
+	The second portion goes where you want the drop down link
+	box to be.
+-->
+
+
+
+
+<style>
+<!--
+#wrapper{
+position:relative;
+height:30px
+}
+
+#wrapper2{
+position:absolute
+}
+
+#coffeemenu03{
+filter:revealTrans(Duration=1.5,Transition=12)
+visibility:hide
+}
+
+
+-->
+</style></HEAD>
+
+<BODY>
+
+<ilayer id="coffeemenu01" height=35px>
+<layer id="coffeemenu02" visibility=show>
+<span id="wrapper">
+<span id="wrapper2" onClick="dropit2();event.cancelBubble=true;return false">
+<font face="Verdana"><b><a href="notthisbrowser.html">Click Here To Navigate</a></b></font>
+</span>
+</span>
+</layer>
+</ilayer>
+
+<script language="JavaScript1.2">
+
+
+var enableeffect=true
+
+var selection=new Array()
+selection[0]='<font face="ARIAL BLACK"><a href="http://www.javascriptfreecode.com">Order Our Stuff</a><br>'
+selection[1]='<a href="http://www.javascriptfreecode.com">Contact Us via E-mail</a><br>'
+selection[2]='<a href="http://www.javascriptfreecode.com">Help With Our Items</a><br>'
+selection[3]='<a href="http://www.javascriptfreecode.comm">Products We Have</a><br>'
+selection[4]='<a href="www.javascriptfreecode.com">Services We Offer</a><br></font>'
+
+if (document.layers)
+document.coffeemenu01.document.coffeemenu02.visibility='show'
+
+function dropit2(){
+if (document.all){
+coffeemenu03.style.left=document.body.scrollLeft+event.clientX-event.offsetX
+coffeemenu03.style.top=document.body.scrollTop+event.clientY-event.offsetY+18
+if (coffeemenu03.style.visibility=="hidden"){
+if (enableeffect)
+coffeemenu03.filters.revealTrans.apply()
+coffeemenu03.style.visibility="visible"
+if (enableeffect)
+coffeemenu03.filters.revealTrans.play()
+}
+else{
+hidemenu()
+}
+}
+}
+
+function dropit(e){
+if (document.coffeemenu03.visibility=="hide")
+document.coffeemenu03.visibility="show"
+else
+document.coffeemenu03.visibility="hide"
+document.coffeemenu03.left=e.pageX-e.layerX
+document.coffeemenu03.top=e.pageY-e.layerY+19
+return false
+}
+
+function hidemenu(){
+if (enableeffect)
+coffeemenu03.filters.revealTrans.stop()
+coffeemenu03.style.visibility="hidden"
+}
+
+function hidemenu2(){
+document.coffeemenu03.visibility="hide"
+}
+
+if (document.layers){
+document.coffeemenu01.document.coffeemenu02.captureEvents(Event.CLICK)
+document.coffeemenu01.document.coffeemenu02.onclick=dropit
+}
+else if (document.all)
+document.body.onclick=hidemenu
+
+</script>
+
+<div id="coffeemenu03" style="position:absolute;left:0;top:0;layer-background-color:#C0C0C0;background-color:#C0C0C0;width:200;visibility:hidden;border:2px solid black;padding:0px">
+<script language="JavaScript1.2">
+if (document.all)
+coffeemenu03.style.padding='4px'
+for (i=0;i<selection.length;i++)
+document.write(selection[i])
+</script>
+</div>
+<br />
+<br />
+<br />
+<br />
+
+<script language="JavaScript1.2">
+if (document.layers){
+document.coffeemenu03.captureEvents(Event.CLICK)
+document.coffeemenu03.onclick=hidemenu2
+}
+</script>
+
+<!-- END OF Drop Down DHTML -->
+<a target='_blank' href='http://www.javascriptfreecode.com/' style='font-size: 8pt; text-decoration: none'>JavaScript Codes</a>
