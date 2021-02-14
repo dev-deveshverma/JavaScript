@@ -83,6 +83,7 @@ document.coffeemenu03.visibility="hide"
 document.coffeemenu03.left=e.pageX-e.layerX
 document.coffeemenu03.top=e.pageY-e.layerY+19
 return false
+
 }
 
 function hidemenu(){
