@@ -122,6 +122,7 @@ document.write(selection[i])
 if (document.layers){
 document.coffeemenu03.captureEvents(Event.CLICK)
 document.coffeemenu03.onclick=hidemenu2
+
 }
 </script>
 
