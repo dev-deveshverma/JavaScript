@@ -173,7 +173,8 @@ body .socials > a {
   -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.38, -0.12, 0.24, 1.91);
   transition: -webkit-transform 0.3s cubic-bezier(0.38, -0.12, 0.24, 1.91);
   transition: transform 0.3s cubic-bezier(0.38, -0.12, 0.24, 1.91);
-  transition: transform 0.3s cubic-bezier(0.38, -0.12, 0.24, 1.91), -webkit-transform 0.3s cubic-bezier(0.38, -0.12, 0.24, 1.91);
+  transition: transform 0.3s cubic-bezier(0.38, -0.12, 0.24, 1.91), 
+  -webkit-transform 0.3s cubic-bezier(0.38, -0.12, 0.24, 1.91);
 }
 body .socials > a:hover {
   --scale: 1;
