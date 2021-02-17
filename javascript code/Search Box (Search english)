@@ -15,6 +15,7 @@ function findInPage(str) {
         n++;
     else
       n++;
+
     if (n == 0)
       alert("Not found.");
   }
