@@ -22,6 +22,7 @@ function findInPage(str) {
   }
   if (IE4) {
     txt = win.document.body.createTextRange();
+    
     for (i = 0; i <= n && (found = txt.findText(str)) != false; i++) {
       txt.moveStart("character", 1);
       txt.moveEnd("textedit");
