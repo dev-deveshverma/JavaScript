@@ -28,6 +28,7 @@ function findInPage(str) {
     if (found) {
       txt.moveStart("character", -1);
       txt.findText(str);
+      
       txt.select();
       txt.scrollIntoView();
       n++;
