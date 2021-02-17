@@ -1,6 +1,7 @@
 <!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
 
 <SCRIPT language=JavaScript>
+
 var NS4 = (document.layers);    
 var IE4 = (document.all);
 var win = window;    
