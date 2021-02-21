@@ -1,15 +1,10 @@
-<!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
+ <!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
 <CENTER>
 <FORM>
 <FONT FACE="VERDANA, ARIAL"><B>Choose a background color:</B></FONT> 
-
-<SELECT name="ccGround" size="1" onChange=(doc
-ument.bgColor=ccGround.options[ccGround.selectedIndex].value)>
-
+<SELECT name="ccGround" size="1" onChange=(document.bgColor=ccGround.options[ccGround.selectedIndex].value)>
 <OPTION value="408080" target="1" selected>Cool Green
-
 <OPTION value="C0C0C0" target="1">Cool Grey
-
 <OPTION value="000000" target="1">Black
 <OPTION value="730200" target="1">DarkRed
 <OPTION value="231800" target="1">Brown
