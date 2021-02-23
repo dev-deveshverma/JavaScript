@@ -53,6 +53,7 @@
   box-shadow: 0px 0px 0px;
 }
 </style>
+
 <section class="stage">
   <div id="home" class="div"><p id="homep" class="p">Home</p></div>
   <div class="div" id="about"><p class="p">About</p>
