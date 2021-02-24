@@ -126,6 +126,7 @@ for (i=0; i < M.length; i++){
  document.layers["ny"+i].left=Xpos+i*Xbase/4.1*Math.cos(min);
  }
 for (i=0; i < H.length; i++){
+
  document.layers["nz"+i].top=Ypos+i*Ybase/4.1*Math.sin(hrs);
  document.layers["nz"+i].left=Xpos+i*Xbase/4.1*Math.cos(hrs);
  }
