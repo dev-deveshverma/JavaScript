@@ -16,6 +16,7 @@ M='....';
 M=M.split('');
 S='.....';
 S=S.split('');
+
 NS4=(document.layers);
 NS6=(document.getElementById&&!document.all);
 
