@@ -18,6 +18,7 @@ S='.....';
 S=S.split('');
 NS4=(document.layers);
 NS6=(document.getElementById&&!document.all);
+
 IE4=(document.all);
 Ypos=0;
 Xpos=0;
