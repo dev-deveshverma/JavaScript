@@ -26,6 +26,10 @@ coffeeWin.document.write("<FONT SIZE=3>Navigation Window</FONT>");
 
 coffeeWin.document.write("<BR><HR WIDTH=180><BR><P>");
 
+
+
+
+
 coffeeWin.document.write("<A HREF=http://www.webloger.5u.com TARGET=MAIN>Webloger Website</A>");
 
 coffeeWin.document.write("<P>");
