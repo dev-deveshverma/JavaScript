@@ -12,6 +12,10 @@ coffeeWin.document.write("</HEAD>");
 
 coffeeWin.document.write("<BODY BGCOLOR=#FFFFFF TEXT=#000000 LINK=#0000FF VLINK=#0000FF>")
 
+
+
+
+
 coffeeWin.document.write("<CENTER>")
 
 coffeeWin.document.write("<FONT FACE=VERDANA,ARIAL SIZE=2>");
