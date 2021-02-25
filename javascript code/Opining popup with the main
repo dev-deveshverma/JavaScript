@@ -2,6 +2,9 @@
 <SCRIPT LANGUAGE="JavaScript">
 coffeeWin=window.open("","coffeeWin","toolbar=no,width=200,height=250,directories=no,menubar=no,SCROLLBARS=no");
 
+
+
+
 coffeeWin.document.write("<HTML>");
 coffeeWin.document.write("<HEAD>");
 
