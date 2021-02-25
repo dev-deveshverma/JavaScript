@@ -1,5 +1,14 @@
 <!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
+
+
+
+
 <SCRIPT LANGUAGE="JavaScript">
+
+
+
+
+
 coffeeWin=window.open("","coffeeWin","toolbar=no,width=200,height=250,directories=no,menubar=no,SCROLLBARS=no");
 
 
