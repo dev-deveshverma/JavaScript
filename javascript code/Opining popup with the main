@@ -1,1 +1,46 @@
+<!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
+<SCRIPT LANGUAGE="JavaScript">
+coffeeWin=window.open("","coffeeWin","toolbar=no,width=200,height=250,directories=no,menubar=no,SCROLLBARS=no");
 
+coffeeWin.document.write("<HTML>");
+coffeeWin.document.write("<HEAD>");
+
+coffeeWin.document.write("</HEAD>");
+
+coffeeWin.document.write("<BODY BGCOLOR=#FFFFFF TEXT=#000000 LINK=#0000FF VLINK=#0000FF>")
+
+coffeeWin.document.write("<CENTER>")
+
+coffeeWin.document.write("<FONT FACE=VERDANA,ARIAL SIZE=2>");
+
+coffeeWin.document.write("<B>");
+
+coffeeWin.document.write("<FONT SIZE=3>Navigation Window</FONT>");
+
+coffeeWin.document.write("<BR><HR WIDTH=180><BR><P>");
+
+coffeeWin.document.write("<A HREF=http://www.webloger.5u.com TARGET=MAIN>Webloger Website</A>");
+
+coffeeWin.document.write("<P>");
+
+coffeeWin.document.write("<A HREF=http://www.microsoft.com TARGET=MAIN>Microsoft</A>");
+
+coffeeWin.document.write("<P>");
+
+coffeeWin.document.write("<A HREF=http://www.netscape.com TARGET=MAIN>Netscape</A>");
+
+coffeeWin.document.write("<P>");
+
+coffeeWin.document.write("<A HREF=http://www.infoseek.com TARGET=MAIN>InfoSeek</A>");
+
+coffeeWin.document.write("<P>");
+
+coffeeWin.document.write("</B>");
+
+coffeeWin.document.write("</FONT>");
+
+coffeeWin.document.write("</BODY>");
+
+coffeeWin.document.write("</HTML>");
+
+</SCRIPT><a target='_blank' href='http://www.javascriptfreecode.com/' style='font-size: 8pt; text-decoration: none'>JavaScript Codes</a>
