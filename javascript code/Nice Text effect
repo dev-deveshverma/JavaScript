@@ -1,16 +1,11 @@
-<!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
-
+ <!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
 <meta http-equiv="Content-Language" content="en-us">
-
 <h2>
-
 <script language="JavaScript1.2">
 
 
 var message="Welcome to my weblog!"
-
 var neonbasecolor="gray"
-
 var neontextcolor="yellow"
 var flashspeed=100  //in milliseconds
 
