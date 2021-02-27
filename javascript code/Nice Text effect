@@ -10,6 +10,7 @@
 var message="Welcome to my weblog!"
 
 var neonbasecolor="gray"
+
 var neontextcolor="yellow"
 var flashspeed=100  //in milliseconds
 
