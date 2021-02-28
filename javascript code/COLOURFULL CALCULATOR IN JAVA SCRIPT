@@ -1,22 +1,14 @@
-<!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
-
+ <!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
 <body>
 <CENTER>
-
 <body bgcolor="black">
 <FORM name="Keypad" action="">
 <TABLE>
 <B>
-
-
 <TABLE border=2 width=50 height=60 cellpadding=1 cellspacing=5>
 <TR>
-
-
 <TD colspan=3 align=middle>
 <input name="ReadOut" type="Text" size=24 value="0" width=100%>
-
-
 </TD>
 <TD
 </TD>
@@ -29,7 +21,6 @@ onmouseover="document.bgColor='green'"</a>
 <a href="/"
 onmouseover="document.bgColor='seagreen'"</a>
 <input name="btnClearEntry" type="Button" value="  CE " onclick="ClearEntry()">
-
 </TD>
 </TR>
 <TR>
