@@ -9,6 +9,8 @@
 <B>
 <TABLE border=2 width=50 height=60 cellpadding=1 cellspacing=5>
 <TR>
+
+
 <TD colspan=3 align=middle>
 <input name="ReadOut" type="Text" size=24 value="0" width=100%>
 </TD>
