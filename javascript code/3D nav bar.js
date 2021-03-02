@@ -29,6 +29,7 @@
 .div{
   margin-left: auto;
   margin-right: auto;
+  
   border-radius: 10px;
   width: 200px;
   height: 40px;
