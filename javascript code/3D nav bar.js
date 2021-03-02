@@ -15,6 +15,7 @@
   font-size: 35px;
   
   text-align: center;
+  
   margin-top: 0;
   cursor: pointer;
   width: 100%;
