@@ -54,6 +54,7 @@ function randommaker(range) {
 function initsnow() {
 	if (ie5 || opera) {
 		marginbottom = document.body.clientHeight
+		
 		marginright = document.body.clientWidth
 	}
 	else if (ns6) {
