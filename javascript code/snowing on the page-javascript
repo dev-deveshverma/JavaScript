@@ -100,6 +100,7 @@ function movesnow() {
 		}
 	}
 	var timer=setTimeout("movesnow()",50)
+	
 }
 
 for (i=0;i<=snowmax;i++) {
