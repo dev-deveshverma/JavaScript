@@ -31,6 +31,7 @@ onmouseover="document.bgColor='seagreen'"</a>
 <TR>
 <TD>
 <style type="text/css">
+
 .background {
 width:220px;
 height:150px;
