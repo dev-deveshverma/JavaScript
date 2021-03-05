@@ -258,6 +258,7 @@ form {
 <input type="range" class="unicycle__wheel" name="unicycle" min="0" max="100" value="0">
 <div class="unicycle__marker">
 <div class="unicycle__rider-head"></div>
+
 <div class="unicycle__rider-body">
 <div class="unicycle__left-arm">
 <div class="unicycle__left-lower-arm"></div>
