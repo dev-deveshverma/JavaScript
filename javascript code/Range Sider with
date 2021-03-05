@@ -74,6 +74,7 @@ form {
 .unicycle__left-arm,
 .unicycle__left-lower-arm,
 .unicycle__right-leg,
+
 .unicycle__right-lower-leg,
 .unicycle__left-leg,
 .unicycle__left-lower-leg,
@@ -284,7 +285,7 @@ form {
 </div>
 </div>
 </form>
-
+but
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   let unicycle = new UnicycleRangeSlider("#unicycle1");
