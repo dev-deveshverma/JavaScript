@@ -49,6 +49,7 @@ form {
 }
 .unicycle__wheel::-webkit-slider-thumb {
 	background: transparent;
+	
 	border: 0;
 	border-radius: 50%;
 	box-shadow: 0 0 0 0.1em inset;
