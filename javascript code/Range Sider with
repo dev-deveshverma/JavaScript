@@ -141,6 +141,7 @@ form {
 .unicycle__left-lower-arm,
 .unicycle__right-leg,
 .unicycle__right-lower-leg,
+
 .unicycle__left-leg,
 .unicycle__left-lower-leg,
 .unicycle__seat,
