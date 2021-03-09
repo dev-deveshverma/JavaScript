@@ -11,6 +11,7 @@
   width: 250px;
   
   margin-left: auto;
+  
   margin-right: auto;
 }
 .p{
