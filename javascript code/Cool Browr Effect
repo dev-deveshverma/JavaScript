@@ -17,6 +17,7 @@ self.moveBy(0,3);
 }
 for(j = 8; j > 0; j--){
 self.moveBy(0,j);
+
 self.moveBy(j,0);
 self.moveBy(0,-j);
 self.moveBy(-j,0);
