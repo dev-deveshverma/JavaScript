@@ -9,6 +9,7 @@
 
 <script>
 function drop(n) {
+
 if(self.moveBy){
 self.moveBy (0,-900);
 for(i = n; i > 0; i--){
