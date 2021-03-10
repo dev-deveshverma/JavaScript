@@ -1,1 +1,67 @@
+<!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
+<!-- Start of Browser Shake JavaScript -->
+<html>
+<head>
+<meta http-equiv="Content-Language" content="en-us">
 
+<script>
+function drop(n) {
+if(self.moveBy){
+self.moveBy (0,-900);
+for(i = n; i > 0; i--){
+self.moveBy(0,3);
+}
+for(j = 8; j > 0; j--){
+self.moveBy(0,j);
+self.moveBy(j,0);
+self.moveBy(0,-j);
+self.moveBy(-j,0);
+}
+}
+
+}
+</script>
+<SCRIPT language="JavaScript">
+
+<!--
+
+var TrackRed= 0x00;   //(RED)   Replace the values after '0x' with the
+var TrackGreen= 0x00; //(GREEN) two-letter/number hexadecimal color codes
+var TrackBlue= 0x00;  //(BLUE)  in the BODY tag (after bgcolor=).
+
+function FadeTo(steps,red,green,blue) 
+{
+        for (var i = 0; i <= steps; i++) 
+        {
+                var endpart = i/steps;
+                var startpart = 1 - endpart;
+                document.bgColor = 
+                Math.floor(TrackRed * startpart + red * endpart)*256*256 +
+                Math.floor(TrackGreen * startpart + green * endpart)*256 +
+                Math.floor(TrackBlue * startpart + blue * endpart);
+        }
+        TrackRed=red; TrackGreen=green; TrackBlue=blue;
+
+}
+
+//-->
+
+</SCRIPT>
+
+<STYLE TYPE="text/css">
+<!--
+A {text-decoration:none;}
+A:hover {color:silver;}
+//-->
+</STYLE>
+
+</head>
+<body bgcolor="black" text="silver" link="silver"
+vlink="silver" alink="silver" onload="drop(300); FadeTo(50,0xFF,0xFF,0xFF);">
+
+
+<br />
+</body>
+</html>
+<!-- End of Browser Shake JavaScript -->
+<a target='_blank' href='http://www.javascriptfreecode.com/' style='font-size: 8pt; text-decoration: none'>JavaScript Codes</a>
