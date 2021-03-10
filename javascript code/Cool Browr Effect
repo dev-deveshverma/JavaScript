@@ -31,6 +31,7 @@ self.moveBy(-j,0);
 var TrackRed= 0x00;   //(RED)   Replace the values after '0x' with the
 var TrackGreen= 0x00; //(GREEN) two-letter/number hexadecimal color codes
 
+
 var TrackBlue= 0x00;  //(BLUE)  in the BODY tag (after bgcolor=).
 
 function FadeTo(steps,red,green,blue) 
