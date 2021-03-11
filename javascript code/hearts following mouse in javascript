@@ -8,6 +8,7 @@
 	<img src="http://www.javascriptfreecode.com/images/heart.gif" height=11 width=11>
 </div>
 <div id="dot2" style="position: absolute; height: 11; width: 11;">
+
 	<img src="http://www.javascriptfreecode.com/images/heart.gif" height=11 width=11>
 </div>
 <div id="dot3" style="position: absolute; height: 11; width: 11;">
