@@ -1,14 +1,11 @@
 <!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
-
 <div id="dot0" style="position: absolute; visibility: hidden; height: 11; width: 11;">
-
 	<img src="http://www.javascriptfreecode.com/images/heart.gif" height=11 width=11>
 </div>
 <div id="dot1" style="position: absolute; height: 11; width: 11;">
 	<img src="http://www.javascriptfreecode.com/images/heart.gif" height=11 width=11>
 </div>
 <div id="dot2" style="position: absolute; height: 11; width: 11;">
-
 	<img src="http://www.javascriptfreecode.com/images/heart.gif" height=11 width=11>
 </div>
 <div id="dot3" style="position: absolute; height: 11; width: 11;">
@@ -21,7 +18,6 @@
 	<img src="http://www.javascriptfreecode.com/images/heart.gif" height=11 width=11>
 </div>
 <div id="dot6" style="position: absolute; height: 11; width: 11;">
-
 	<img src="http://www.javascriptfreecode.com/images/heart.gif" height=11 width=11>
 </div>
 
