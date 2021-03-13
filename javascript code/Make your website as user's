@@ -4,6 +4,7 @@
 
 	<!-- Begin
 	// If it's Internet Explorer, use automatic link
+	
 	// Be sure to change the "http://www.YourWebSiteHere.com\"
 	// to the URL you want them to bookmark.
 	if (document.all){
