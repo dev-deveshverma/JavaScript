@@ -1,0 +1,32 @@
+<!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
+<SCRIPT LANGUAGE="JavaScript">
+
+	<!-- Begin
+	// If it's Internet Explorer, use automatic link
+	// Be sure to change the "http://www.YourWebSiteHere.com\"
+	// to the URL you want them to bookmark.
+	if (document.all){
+	  document.write('<A HREF="javascript:history.go(0);" onClick="this.style.behavior=\'url(#default#homepage)\';this.setHomePage(\'http://www.YourWebSiteHere.com\');">');
+	  document.write('<font size="5" color=6699FF face=arial><B>Click Here to Make My Web Page Your Homepage</B></font></a>');
+	}
+
+	// If it's Netscape 6, tell user to drag link onto Home button
+	// Be sure to change the "http://www.YourWebSiteHere.com\"
+	// to the URL you want them to bookmark.
+	else if (document.getElementById){
+	  document.write('<a href="http://www.YourWebSiteHere.com">Drag this link onto your Home button to make this your Home Page.</a>');
+	}
+
+	// If it's Netscape 4 or lower, give instructions to set Home Page
+	else if (document.layers){
+	  document.write('<b>Make this site your home page:</b><br>- Go to <b>Preferences</b> in the <B>Edit</B> Menu.<br>- Choose <b>Navigator</b> from the list on the left.<br>- Click on the <b>"Use Current Page"</b> button.');
+	}
+
+	// If it's any other browser, for which I don't know the specifications of home paging, display instructions
+	else {
+	  document.write('<b>Make this site your home page:</b><br>- Go to <b>Preferences</b> in the <B>Edit</B> Menu.<br>- Choose <b>Navigator</b> from the list on the left.<br>- Click on the <b>"Use Current Page"</b> button.');
+	}
+	//  End -->
+</script>
+<br />
+<a target='_blank' href='http://www.javascriptfreecode.com/' style='font-size: 8pt; text-decoration: none'>JavaScript Codes</a>
