@@ -18,6 +18,7 @@
 	
 	// to the URL you want them to bookmark.
 	else if (document.getElementById){
+	
 	  document.write('<a href="http://www.YourWebSiteHere.com">Drag this link onto your Home button to make this your Home Page.</a>');
 	}
 
