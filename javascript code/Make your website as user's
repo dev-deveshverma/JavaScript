@@ -15,6 +15,7 @@
 
 	// If it's Netscape 6, tell user to drag link onto Home button
 	// Be sure to change the "http://www.YourWebSiteHere.com\"
+	
 	// to the URL you want them to bookmark.
 	else if (document.getElementById){
 	  document.write('<a href="http://www.YourWebSiteHere.com">Drag this link onto your Home button to make this your Home Page.</a>');
