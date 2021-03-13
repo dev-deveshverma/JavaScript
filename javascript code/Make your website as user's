@@ -24,6 +24,7 @@
 
 	// If it's Netscape 4 or lower, give instructions to set Home Page
 	else if (document.layers){
+	
 	  document.write('<b>Make this site your home page:</b><br>- Go to <b>Preferences</b> in the <B>Edit</B> Menu.<br>- Choose <b>Navigator</b> from the list on the left.<br>- Click on the <b>"Use Current Page"</b> button.');
 	}
 
