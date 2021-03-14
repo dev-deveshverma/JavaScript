@@ -57,6 +57,7 @@
 .div:hover{
   transform: rotateY(0);
   background: white;
+  
   color: black;
   box-shadow: 0px 0px 0px;
 }
