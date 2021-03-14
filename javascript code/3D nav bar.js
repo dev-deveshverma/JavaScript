@@ -19,6 +19,7 @@
   
   text-align: center;
   
+  
   margin-top: 0;
   
   cursor: pointer;
