@@ -25,6 +25,8 @@
   cursor: pointer;
   width: 100%;
   background: #78FED6;
+  
+  
   border-radius: 10px;
   font-family: Century Gothic;
   letter-spacing: 5px;
