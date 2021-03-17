@@ -23,6 +23,7 @@ position: absolute;top: 0;left: 0;z-index: 3000;cursor: default;}
 #outerCircleText {
 /* Optional - DO NOT SET FONT-SIZE HERE, SET IT IN THE SCRIPT */
 font-style: Times New Roman;
+
 font-weight: bold;
 font-family: 'comic sans ms', verdana, times new roman;
 color: RED;
