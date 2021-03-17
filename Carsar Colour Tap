@@ -1,6 +1,7 @@
 <!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
  
 /* Circle Text Styles */
+
 #outerCircleText {
 /* Optional - DO NOT SET FONT-SIZE HERE, SET IT IN THE SCRIPT */
 font-style: Times New Roman;
