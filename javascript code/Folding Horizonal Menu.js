@@ -1,8 +1,7 @@
 <!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
   
 <style>
-  
-@import url('https://fonts.googleapis.com/css?family=Lato');
+ @import url('https://fonts.googleapis.com/css?family=Lato');
 body {
   background-color: #000000;
   color: rgba(255, 255, 255, 0.7);
