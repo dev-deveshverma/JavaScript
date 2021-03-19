@@ -123,6 +123,7 @@ if (window.addEventListener){
   window.addEventListener('scroll', ascroll, false);
 }
 else if (window.attachEvent){
+
  window.attachEvent('onload', init);
  document.attachEvent('onmousemove', mouse);
 };
