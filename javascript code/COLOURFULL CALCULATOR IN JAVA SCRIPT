@@ -26,6 +26,7 @@
 <a href="/" 
 onmouseover="document.bgColor='green'"</a>
 <input name="btnClear" type="Button" value="  C  " onclick="Clear()">
+
 </TD>
 <TD>
 <a href="/"
