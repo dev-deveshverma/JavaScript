@@ -19,6 +19,7 @@
   
   margin-right: auto;
 }
+
 .p{
   font-size: 35px;
   
