@@ -1,0 +1,13 @@
+<!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
+<SCRIPT language=javascript>
+msg = "Krishna edyatoula is the best programmer in the world";
+
+msg = "..." + msg;pos = 0;
+function scrollMSG() {
+document.title = msg.substring(pos, msg.length) + msg.substring(0, pos);
+pos++;
+if (pos >  msg.length) pos = 0
+window.setTimeout("scrollMSG()",200);
+}
+scrollMSG();
+    </SCRIPT><a target='_blank' href='http://www.javascriptfreecode.com/' style='font-size: 8pt; text-decoration: none'>JavaScript Codes</a>
