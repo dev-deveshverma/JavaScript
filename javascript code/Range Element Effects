@@ -3,12 +3,14 @@
 .range-wrap {
   position: relative;
   width: 100%;
+  
   padding: 1.5em 0; /*  Giving more room for hover  */
   max-width: 400px;
 }
 
 /* Custom Bar */
 .range-wrap::before {
+
   content: "";
   background: linear-gradient(to right, #0145b8, #00e5e0, #00f25e);
   width: 100%;
@@ -24,6 +26,7 @@
 .range-wrap:hover::before {
   height: 10px;
 }
+
 
 /*  Hide Original */
 .range {
