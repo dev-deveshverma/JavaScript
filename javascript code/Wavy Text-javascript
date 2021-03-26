@@ -1,0 +1,29 @@
+<!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
+<HTML>
+<HEAD>
+<STYLE>
+   DIV.aFilter {FILTER:PROGID:DXIMAGETRANSFORM.MICROSOFT.WAVE(
+     strength=7,
+     freq=3,
+     lightstrength=100,
+     add=0,
+     phase=0);
+     width: 150px; color: #8080FF;font-size:30px;font-weight:bold;
+     text-align :Center;
+    }
+</STYLE>
+<SCRIPT language="javascript">
+  function doWave()
+  {
+   document.getElementById("myDiv").filters[0].phase += 10;
+   status = document.getElementById("myDiv").filters[0].phase ;
+ 
+  }
+</SCRIPT>
+</HEAD>
+<BODY OnLoad="window.setInterval('doWave();',100);" >
+<DIV CLASS="aFilter" id="myDiv"> http://javascriptfreecode.com</DIV>
+<br />
+</BODY>
+</HTML>
+<a target='_blank' href='http://www.javascriptfreecode.com/' style='font-size: 8pt; text-decoration: none'>JavaScript Codes</a>
