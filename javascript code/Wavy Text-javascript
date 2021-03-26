@@ -13,6 +13,7 @@
      width: 150px; color: #8080FF;font-size:30px;font-weight:bold;
      text-align :Center;
     }
+    
 </STYLE>
 <SCRIPT language="javascript">
   function doWave()
