@@ -42,6 +42,7 @@ position: absolute;top: 0;left: 0;z-index: 3000;cursor: default;}
   Modifications as first seen in http://www.dynamicdrive.com/forums/
   username:jscheuer1 - This notice must remain for legal use
   */
+  
 ;(function(){
 // Your message here (QUOTED STRING)
 var msg = " Merry Christmas  ";
