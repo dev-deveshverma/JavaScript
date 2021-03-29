@@ -28,6 +28,7 @@ IE4=(document.all);
 Ypos=0;
 Xpos=0;
 dots=12;
+
 Split=360/dots;
 if (NS6){
 for (i=1; i < dots+1; i++){
