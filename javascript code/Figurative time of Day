@@ -207,6 +207,7 @@ path, polygon, circle, rect {
   border-radius: 4px;
   cursor: pointer;
   color: #fff;
+  
 }
 .option-wrapper .option.active {
   background: #fff;
