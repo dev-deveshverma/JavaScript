@@ -1,6 +1,7 @@
 <!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css'>
 <style>
+
 body {
   background: radial-gradient(#870000, #53346d);
   font-family: "Comfortaa", sans-serif;
@@ -19,6 +20,7 @@ h1 {
 
 svg {
   display: inline-block;
+  
 }
 
 path, polygon, circle, rect {
