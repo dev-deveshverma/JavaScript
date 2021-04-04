@@ -28,6 +28,7 @@ dots=12;
 Split=360/dots;
 if (NS6){
 for (i=1; i < dots+1; i++){
+
 document.write('<div id="n6Digits'+i+'" style="position:absolute;top:0px;left:0px;width:30px;height:30px;font-family:Arial;font-size:10px;color:#'+fCol+';text-align:center;padding-top:10px">'+i+'</div>');
 }
 for (i=0; i < M.length; i++){
