@@ -1,10 +1,8 @@
-<!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
+ <!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
 <SCRIPT language=JavaScript>
 
-fCol='444444'; //face colour
-
+fCol='444444'; //face colour.
 sCol='FF0000'; //seconds colour.
-
 mCol='444444'; //minutes colour.
 hCol='444444'; //hours colour.
 
@@ -21,14 +19,12 @@ S=S.split('');
 NS4=(document.layers);
 NS6=(document.getElementById&&!document.all);
 IE4=(document.all);
-
 Ypos=0;
 Xpos=0;
 dots=12;
 Split=360/dots;
 if (NS6){
 for (i=1; i < dots+1; i++){
-
 document.write('<div id="n6Digits'+i+'" style="position:absolute;top:0px;left:0px;width:30px;height:30px;font-family:Arial;font-size:10px;color:#'+fCol+';text-align:center;padding-top:10px">'+i+'</div>');
 }
 for (i=0; i < M.length; i++){
