@@ -1,7 +1,8 @@
 <!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
 <SCRIPT language=JavaScript>
 
-fCol='444444'; //face colour.
+fCol='444444'; //face colour
+
 sCol='FF0000'; //seconds colour.
 mCol='444444'; //minutes colour.
 hCol='444444'; //hours colour.
