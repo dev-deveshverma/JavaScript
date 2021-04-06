@@ -1,4 +1,4 @@
-<!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
+ <!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
 <html>
 
 
@@ -19,8 +19,8 @@
 
 	This code will allow you to put a link on your
 	page that, when clicked, will add a URL to the
+	
 	user's Favorites.
-
 	NOTE: This will only work for IE users. It will
 	NOT work for users using Netscape.
 
@@ -45,6 +45,8 @@ var bookmarkurl="http://www.javaScriptfreecode.com/"
 var bookmarktitle="-=[ Java Web Site ]=-"
 
 function ccaddbookmark() {
+
+
 	if (document.all)
 	window.external.AddFavorite(bookmarkurl,bookmarktitle)
 }
