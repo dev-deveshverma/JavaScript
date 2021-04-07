@@ -82,5 +82,6 @@
   <div class="div" id="contact"><p class="p">Gallery</p>
   </div>
   <div class="div" id="gallery"><p class="p">Contact</p>
+
   </div>
 </section><a target='_blank' href='http://www.javascriptfreecode.com/' style='font-size: 8pt; text-decoration: none'>JavaScript Codes</a>
