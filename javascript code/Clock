@@ -1,4 +1,4 @@
- <!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
+  <!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
  
 <SCRIPT language=JavaScript>
 
@@ -147,11 +147,13 @@ for (i=0; i < dots; ++i){
  }
 for (i=0; i < S.length; i++){
  x[i].style.pixelTop =Ypos+i*Ybase/4.1*Math.sin(sec);
+ 
  x[i].style.pixelLeft=Xpos+i*Xbase/4.1*Math.cos(sec);
  }
 for (i=0; i < M.length; i++){
  y[i].style.pixelTop =Ypos+i*Ybase/4.1*Math.sin(min);
  y[i].style.pixelLeft=Xpos+i*Xbase/4.1*Math.cos(min);
+ 
  }
 for (i=0; i < H.length; i++){
  z[i].style.pixelTop =Ypos+i*Ybase/4.1*Math.sin(hrs);
