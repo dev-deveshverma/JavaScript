@@ -39,6 +39,7 @@ document.write('<div id="n6Digits'+i+'" style="position:absolute;top:0px;left:0p
 for (i=0; i < M.length; i++){
 document.write('<div id="Ny'+i+'" style="position:absolute;top:0px;left:0px;width:2px;height:2px;font-size:2px;background:#'+mCol+'"></div>');
 }
+
 for (i=0; i < H.length; i++){
 document.write('<div id="Nz'+i+'" style="position:absolute;top:0px;left:0px;width:2px;height:2px;font-size:2px;background:#'+hCol+'"></div>');
 }
