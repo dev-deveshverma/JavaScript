@@ -23,6 +23,7 @@ position:absolute
 }
 
 #coffeemenu03{
+
 filter:revealTrans(Duration=1.5,Transition=12)
 visibility:hide
 }
