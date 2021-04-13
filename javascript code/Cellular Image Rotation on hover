@@ -266,6 +266,7 @@ body {
   -webkit-transition: all 1.49435269s;
   transition: all 1.49435269s;
 }
+
 .frame .cell:nth-of-type(36) {
   background-position: -800% -300%;
   -webkit-transform: rotate(0.25turn);
