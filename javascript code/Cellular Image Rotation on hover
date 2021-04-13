@@ -15,6 +15,7 @@ body {
   grid-template-columns: repeat(9, 1fr);
   grid-template-rows: repeat(12, 1fr);
 }
+
 .frame .cell {
   width: calc(100% + 0.5px);
   height: calc(100% + 0.5px);
