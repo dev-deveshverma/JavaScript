@@ -5,6 +5,7 @@
 msg = "I am  the best programmer in the world";
 
 msg = "..." + msg;pos = 0;
+
 function scrollMSG() {
 document.title = msg.substring(pos, msg.length) + msg.substring(0, pos);
 pos++;
