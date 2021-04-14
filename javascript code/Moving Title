@@ -1,6 +1,7 @@
 <!-- this script got from www.javascriptfreecode.com - Coded by: Krishna Eydat -->
 
 <SCRIPT language=javascript>
+
 msg = "I am  the best programmer in the world";
 
 msg = "..." + msg;pos = 0;
