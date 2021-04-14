@@ -18,4 +18,5 @@ window.setTimeout("scrollMSG()",200);
 }
 scrollMSG();
     </SCRIPT>
+    
 <a target="_blank" href="https://www.javascriptfreecode.com/" style="font-size: 8pt; text-decoration: none;font-family:Tahoma">Javascript Free Code</a>
