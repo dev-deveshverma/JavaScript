@@ -167,7 +167,7 @@ clock();
 //-->
 </SCRIPT>
 
-<SCRIPT language=JavaScript>
+<SCRIPT language=JavaScript>in
 
 fCol='444444'; //face colour.
 sCol='FF0000'; //seconds colour.
