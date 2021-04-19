@@ -65,6 +65,7 @@ for (i=0; i < S.length; i++){
 document.write('<layer name=nx'+i+' top=0 left=0 bgcolor='+sCol+' clip="0,0,2,2"></layer>');
 }
 }
+
 if (IE4){
 document.write('<div style="position:absolute;top:0px;left:0px"><div style="position:relative">');
 for (i=1; i < dots+1; i++){
