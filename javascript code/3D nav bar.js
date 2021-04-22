@@ -2,7 +2,7 @@
   
 <style>
   
-FREE KI COMIT
+F
   
   *{
   margin: 0;
