@@ -150,6 +150,7 @@ function splitLetters(word) {
 }
 
 changeWord();
+
 setInterval(changeWord, 4000);
 //# sourceURL=pen.js
     </script><a target='_blank' href='http://www.javascriptfreecode.com/' style='font-size: 8pt; text-decoration: none'>JavaScript Codes</a>
