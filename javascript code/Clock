@@ -15,7 +15,7 @@ Xbase=30; //Clock width.
 
 
 
-ddd
+d
 
 H='...';
 H=H.split('');
