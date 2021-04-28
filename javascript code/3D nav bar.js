@@ -5,7 +5,7 @@
   *{
   margin: 0;
   padding: 0;
-  xxx
+  xx
   
   box-sizing: border-box;
 }
