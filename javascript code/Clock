@@ -14,7 +14,7 @@ Ybase=30; //Clock height.
 Xbase=30; //Clock width.
 
 
-zz
+z
 
 H='...';
 H=H.split('');
