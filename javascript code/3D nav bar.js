@@ -1,7 +1,7 @@
 <!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
   
 <style>
-WEBDEVESHVE
+WEBDEVE
   
   *{
   margin: 0;
