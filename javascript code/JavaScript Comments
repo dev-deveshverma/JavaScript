@@ -3,4 +3,6 @@
 <title>JavaScript</title>
 <script>
 //Document.write("This is a Single Line Comments");
+Document.write("Hello World);/* here is commment which can be on multi lines comments*/
+</script>
 
