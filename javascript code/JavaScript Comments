@@ -2,3 +2,5 @@
 <head>
 <title>JavaScript</title>
 <script>
+//Document.write("This is a Single Line Comments");
+
