@@ -16,3 +16,5 @@ document.write("you are in merit");
 document.write("you are in merit");
 else{
 document.write("please enter a valid per")
+</script>
+</head>
