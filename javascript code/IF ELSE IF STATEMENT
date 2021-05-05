@@ -5,4 +5,12 @@
 <script>
 var per =55;
 if(per >=80 && per <=100){
-document.write("you are in merit")
+document.write("you are in merit");
+}elseif(per >=80 && per <=100){
+document.write("you are in merit");
+}elseif(per >=80 && per <=100){
+document.write("you are in merit");
+}elseif(per >=80 && per <=100){
+document.write("you are in merit");
+}elseif(per >=80 && per <=100){
+document.write("you are in merit");
