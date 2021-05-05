@@ -18,3 +18,6 @@ else{
 document.write("please enter a valid per")
 </script>
 </head>
+<body>
+</body>
+</html>
