@@ -14,7 +14,7 @@
   --dropdown-color: black;
 }
 ddd
-/* Center the planet */
+/* Center th planet */
 body {
   display: -webkit-box;
   display: flex;
