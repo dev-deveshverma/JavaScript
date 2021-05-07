@@ -3,4 +3,5 @@
 <head>
 <title>JavaScript</title>
 <script>
-for
+for (var a=1; a<=100; a++){
+}
