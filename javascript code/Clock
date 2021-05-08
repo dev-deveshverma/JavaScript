@@ -98,6 +98,7 @@ function clock(){
 time = new Date ();
 secs = time.getSeconds();
 sec = -1.57 + Math.PI * secs/30;
+
 mins = time.getMinutes();
 min = -1.57 + Math.PI * mins/30;
 hr = time.getHours();
