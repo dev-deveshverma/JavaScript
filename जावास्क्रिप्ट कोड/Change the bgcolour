@@ -22,10 +22,10 @@
 <OPTION value="0206FF" target="1">Blue
 <OPTION value="AE08EF" target="1">Violet
 <OPTION value="FF8C8A" target="1">Mauve
-<OPTION value="FF80FF" target="1">Pink
-<OPTION value="FFCCCC" target="1">Peach
-<OPTION value="FFCC99" target="1">Orange
-<OPTION value="000080" target="1">Darker Blue
+<वैकल्पिक मूल्य = "FF80FF" लक्ष्य = "1"> गुलाबी
+<वैकल्पिक मूल्य = "एफएफसीसीसीसी" हासिल = "1"> पीएएच
+<वैकल्पिक मूल्य = "FFCC99" लक्ष्य = "1"> नारंगी
+<विकल्प का मूल्य = "000080" लक्ष्य = "1"> गहरा नीला
 <OPTION value="808080" target="1">Dark Grey
 <OPTION value="D5CCBB" target="1">Tan
 <OPTION value="DDDDDD" target="1">LightGray
