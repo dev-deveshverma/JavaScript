@@ -24,6 +24,7 @@ self.moveBy(j,0);
 self.moveBy(0,-j);
 self.moveBy(-j,0);
 }
+
 }
 
 
