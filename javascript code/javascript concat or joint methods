@@ -3,4 +3,7 @@
 <title>Javascript<\title>
 <script>
 var a = ["Sanjay","Devesh","Rohan"]
-var b =
+var b =a.concat("rohan","karan");
+document.write(b);
+<\script>
+
