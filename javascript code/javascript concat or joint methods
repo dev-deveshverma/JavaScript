@@ -6,4 +6,10 @@ var a = ["Sanjay","Devesh","Rohan"]
 var b =a.concat("rohan","karan");
 document.write(b);
 <\script>
-
+<\head>
+<body>
+.............
+........................
+..................................
+</body>
+<\html>
