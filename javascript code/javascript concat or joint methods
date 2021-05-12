@@ -2,3 +2,5 @@
 <head>
 <title>Javascript<\title>
 <script>
+var a = ["Sanjay","Devesh","Rohan"]
+var b =
