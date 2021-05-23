@@ -15,7 +15,7 @@ Ybase=30; //Clock height.
 Xbase=30; //Clock width.
 
 
-
+git status
 
 H='...';
 H=H.split('');
