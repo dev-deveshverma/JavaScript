@@ -17,3 +17,4 @@ var newHighScore = function  ( currentscore){
 
 
 //document.getElementById("test").innerHTML= newHighScore(10);
+fffff
