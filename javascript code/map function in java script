@@ -3,4 +3,7 @@
 <title>JavaScript<\title>
 <script> 
 Var ary = [11,4,9,16];
-var b =
+var b = ary.map(test);
+document .write (b);
+function test (x){
+return x *10;
