@@ -9,4 +9,5 @@ function test (x){
 return x *10;
 }
 <\script>
-<
+<\head>
+<\body>
