@@ -1,1 +1,6 @@
 <!Doctype html>
+<head>
+<title>JavaScript<\title>
+<script> 
+Var ary = [11,4,9,16];
+var b =
