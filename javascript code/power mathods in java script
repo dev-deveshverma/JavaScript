@@ -4,3 +4,4 @@
 <title>JavaScript<\title>
 <script>
 var a = Math.pow(4,3);
+document.write(a);
