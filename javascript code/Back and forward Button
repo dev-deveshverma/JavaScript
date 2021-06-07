@@ -16,6 +16,7 @@ function goHist(a)
 </script>
 <FORM METHOD="post">
 <INPUT TYPE="button" VALUE="  BACK " onClick="goHist(-1)">
+
 <INPUT TYPE="button" VALUE="FORWARD" onClick="goHist(1)">
 </form>
 
