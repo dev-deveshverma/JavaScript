@@ -8,6 +8,7 @@
 
 body {
   background: #2e394d;
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
