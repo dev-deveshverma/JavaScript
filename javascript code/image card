@@ -1,7 +1,7 @@
 <!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
 <style>
 
-body
+body @@
 {
   background-color:#f2f2f2;
   font-family: 'RobotoDraft', 'Roboto', sans-serif;
