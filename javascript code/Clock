@@ -9,7 +9,7 @@ Johhhh
 fCol='444444'; //face colour.
 sCol='FF0000'; //seconds colour.
 
-mCol='444444'; //minuites colour
+mCol='444444'; //minuites colour.
 hCol='444444'; //hours colour.
 
 Ybase=30; //Clock height.
